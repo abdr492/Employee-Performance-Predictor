@@ -9,12 +9,16 @@ __pycache__/
 .ipynb_checkpoints/
 
 # MLflow
+mlruns/
 mlflow.db
 
 # Temp notebooks
 Untitled*.ipynb
 
-# Old models (not needed)
+# Optional: ignore EDA notebooks (recommended)
+EDA*.ipynb
+
+# Old models
 models/model.pkl
 models/label_encoder.pkl
 
