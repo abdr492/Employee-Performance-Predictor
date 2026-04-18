@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlflow.db
+
+# Temp notebooks
+Untitled*.ipynb
+
+# Old models (not needed)
+models/model.pkl
+models/label_encoder.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
